@@ -1,0 +1,28 @@
+.btn{
+	text-decoration: none;
+	padding:5px 10px;
+	width: 50px;
+	text-align: center;
+	display: block;
+	margin: 100px;
+	background: #ddd;
+}
+
+.window_boundingBox{
+	position: fixed;
+	border: 1px solid #ddd;
+	width: 500px;
+	height: 300px;
+	left: 50%;
+	margin-left: -250px;
+	top:100px;
+	box-shadow: 0 0 12px #888;
+}
+
+.window_boundingBox input{
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+}
