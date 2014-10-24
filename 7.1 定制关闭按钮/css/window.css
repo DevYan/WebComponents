@@ -1,0 +1,51 @@
+.btn{
+	text-decoration: none;
+	padding:5px 10px;
+	width: 50px;
+	text-align: center;
+	display: block;
+	margin: 100px;
+	background: #ddd;
+}
+
+.window_boundingBox{
+	position: fixed;
+	border: 1px solid #ddd;
+	width: 500px;
+	height: 300px;
+	left: 50%;
+	margin-left: -250px;
+	top:100px;
+	box-shadow: 0 0 12px #888;
+}
+
+.window_alertBtn{
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.window_header{
+	background: #999;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.window_body{
+	padding: 10px;
+}
+
+.window_closeBtn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+	color: #fff;
+	background: red;
+	cursor: pointer;
+	padding: 5px;
+}
